@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: logdevops-login-backend
-  namespace: authentication
+  namespace: default
   labels:
     app: logdevops-login-backend
 spec:
